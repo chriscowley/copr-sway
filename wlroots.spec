@@ -1,4 +1,4 @@
-%global commit  0.2
+%global commit  0.5.0
 %global gitdate %{nil}
 %global gitrel  %{nil}
 %global gitver  %{nil}
@@ -12,7 +12,7 @@
 
 
 Name:           wlroots
-Version:        0.2
+Version:        0.5.0
 Release:        1%{?gitrel}%{?dist}
 Summary:        A modular Wayland compositor library
 
