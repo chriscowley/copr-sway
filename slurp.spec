@@ -1,6 +1,6 @@
 Name: 		slurp
 Version:	1.1.0
-Release:	1.1.0%{?dist}
+Release:	%{?dist}
 Summary:	Select a region in a Wayland compositor and print it to the standard output. 
 
 License:	MIT

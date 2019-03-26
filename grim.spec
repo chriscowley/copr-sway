@@ -1,6 +1,6 @@
 Name: grim
 Version:	1.1
-Release:	1.1%{?dist}
+Release:	%{?dist}
 Summary:	Grab images from a Wayland compositor.
 
 License:	MIT

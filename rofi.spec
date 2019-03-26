@@ -1,6 +1,6 @@
 Name:    rofi
 Version: 1.5.2
-Release: 7%{?dist}
+Release: %{?dist}
 Summary: A window switcher, application launcher and dmenu replacement
 
 # lexer/theme-parser.[ch]:
@@ -12,7 +12,6 @@ Summary: A window switcher, application launcher and dmenu replacement
 # https://lists.fedoraproject.org/archives/list/legal@lists.fedoraproject.org/message/C4VVT54Z4WFGJPPD5X54ILKRF6X2IFLZ/
 License: MIT
 URL:     https://github.com/DaveDavenport/rofi
-Source0: https://github.com/DaveDavenport/rofi/releases/download/%{version}/rofi-%{version}.tar.gz
 Source0: https://github.com/davatorium/rofi/archive/%{version}.tar.gz
 
 BuildRequires: pkgconfig

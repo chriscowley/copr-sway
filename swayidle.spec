@@ -1,6 +1,6 @@
 Name: 		swayidle
 Version:	1.2
-Release:	1.2%{?dist}
+Release:	%{?dist}
 Summary:	Idle management daemon for Wayland
 
 License:	MIT
