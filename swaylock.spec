@@ -14,7 +14,7 @@ BuildRequires:	wayland-protocols-devel >= 1.14
 BuildRequires:	cairo-devel
 BuildRequires:	gdk-pixbuf2-devel
 BuildRequires:	pam-devel
-BuildRequires:	libxkbcommon
+BuildRequires:	libxkb
 BuildRequires:	scdoc
 
 %description
