@@ -1,4 +1,4 @@
-Name: Grim
+Name: grim
 Version:	1.1
 Release:	1.1%{?dist}
 Summary:	Grab images from a Wayland compositor.
@@ -31,7 +31,6 @@ BuildRequires:	libjpeg-turbo-devel
 
 %install
 %meson_install
-
 
 %files
 %doc
