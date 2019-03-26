@@ -5,7 +5,7 @@ Summary:	Screen locker for Wayland
 
 License:	MIT
 URL:		https://github.com/swaywm/swaylock
-Source0:	%{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
+Source0:	%{url}/archive/%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	meson

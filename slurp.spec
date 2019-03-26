@@ -1,11 +1,11 @@
 Name: 		Slurp
-Version:	1.1
-Release:	1.1%{?dist}
+Version:	1.1.0
+Release:	1.1.0%{?dist}
 Summary:	Select a region in a Wayland compositor and print it to the standard output. 
 
 License:	MIT
 URL:		https://github.com/emersion/slurp
-Source0:	%{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
+Source0:	%{url}/archive/v%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	meson

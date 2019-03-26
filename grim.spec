@@ -5,7 +5,7 @@ Summary:	Grab images from a Wayland compositor.
 
 License:	MIT
 URL:		https://github.com/emersion/grim
-Source0:	%{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
+Source0:	%{url}/archive/v%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	meson

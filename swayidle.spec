@@ -5,7 +5,7 @@ Summary:	Idle management daemon for Wayland
 
 License:	MIT
 URL:		https://github.com/swaywm/swayidle
-Source0:	%{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
+Source0:	%{url}/archive/%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	meson
