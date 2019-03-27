@@ -12,6 +12,8 @@ BuildRequires:	meson
 BuildRequires:  wayland-devel
 BuildRequires:	wayland-protocols-devel >= 1.14
 BuildRequires:	scdoc
+BuildRequires:	libsystemd-devel
+BuildRequires:	cmake
 
 %description
 %{summary}

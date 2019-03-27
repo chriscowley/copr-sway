@@ -16,6 +16,7 @@ BuildRequires:	gdk-pixbuf2-devel
 BuildRequires:	pam-devel
 BuildRequires:	libxkbcommon-devel
 BuildRequires:	scdoc
+BuildRequires:	git
 
 %description
 %{summary}
