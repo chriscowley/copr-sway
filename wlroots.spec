@@ -124,7 +124,7 @@ done
 %doc %dir %{_pkgdocdir}
 %doc %{_pkgdocdir}/README.md
 %license LICENSE
-%{_libdir}/lib%{name}.so.%{api_ver}*
+%{_libdir}/lib%{name}.so.*
 
 
 %files          devel
