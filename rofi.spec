@@ -1,6 +1,6 @@
 Name:    rofi
 Version: 1.5.2
-Release: %{?dist}
+Release: 0%{?dist}
 Summary: A window switcher, application launcher and dmenu replacement
 
 # lexer/theme-parser.[ch]:
