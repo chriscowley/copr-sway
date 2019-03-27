@@ -30,6 +30,8 @@ BuildRequires:  pkgconfig(wayland-server)
 BuildRequires:  wlroots-devel >= 0.5
 BuildRequires:  wayland-devel
 BuildRequires:  scdoc
+BuildRequires:  cmake
+BuildRequires:  libevdev-devel
 # Dmenu is the default launcher in sway
 Requires:       dmenu
 Requires:       libinput >= 1.6.0
