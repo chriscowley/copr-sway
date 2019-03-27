@@ -35,7 +35,6 @@ Summary:        A modular Wayland compositor library
 License:        MIT
 URL:            https://github.com/swaywm/%{name}
 Source0:        %{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
-#Patch0:         %{url}/commit/be6210cf8216c08a91e085dac0ec11d0e34fb217.patch#/pkgconfig_version.patch
 
 BuildRequires:  gcc
 BuildRequires:  libcap-devel
@@ -118,7 +117,7 @@ done
 
 
 # Needed only for < F28
-%ldconfig_scriptlets
+#%ldconfig_scriptlets
 
 
 %files
