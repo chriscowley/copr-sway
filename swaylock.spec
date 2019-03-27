@@ -39,6 +39,10 @@ BuildRequires:	git
 %license LICENSE
 %{_bindir}/swaylock
 %{_mandir}/man1/swaylock.1.gz
+/etc/pam.d/swaylock
+/usr/share/bash-completion/completions/swaylock
+/usr/share/fish/completions/swaylock.fish
+/usr/share/zsh/site-functions/_swaylock
 
 %changelog
 
