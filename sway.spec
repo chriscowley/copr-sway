@@ -27,7 +27,7 @@ BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(wayland-server)
 # cannot depend like this since pc file is versioned 0.0.1
 #BuildRequires:  pkgconfig(wlroots) >= 0.1
-BuildRequires:  wlroots-devel >= 0.2
+BuildRequires:  wlroots-devel >= 0.5
 BuildRequires:  wayland-devel
 BuildRequires:  scdoc
 # Dmenu is the default launcher in sway
