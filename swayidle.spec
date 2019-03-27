@@ -36,6 +36,9 @@ BuildRequires:	cmake
 %license LICENSE
 %{_bindir}/swayidle
 %{_mandir}/man1/swayidle.1.gz
+/usr/share/bash-completion/completions/swayidle
+/usr/share/fish/completions/swayidle.fish
+/usr/share/zsh/site-functions/_swayidle
 
 %changelog
 
