@@ -7,7 +7,6 @@ License:        MIT
 URL:            https://github.com/swaywm/sway
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
-BuildRequires:  asciidoc
 BuildRequires:  gcc-c++
 BuildRequires:  git
 BuildRequires:  make
@@ -43,6 +42,9 @@ Requires:       xorg-x11-server-Xwayland
 Recommends:     rxvt-unicode-256color-ml
 # grim is a recommended way to take screenshots on sway 1.0+
 Recommends:     grim
+Recommends:     slurp
+Recommends:     swaylock
+Recommends:     swayidle
 
 %description
 Sway is a tiling window manager supporting Wayland compositor protocol and 
@@ -58,8 +60,6 @@ mkdir %{_target_platform}
 
 %install
 %meson_install
-# Set default terminal to urxvt256c-ml
-sed -i 's/^set $term urxvt$/set \$term urxvt256c-ml/' %{buildroot}%{_sysconfdir}/sway/config
 # Set Fedora background as default background
 sed -i "s|^output \* bg .*|output * bg /usr/share/backgrounds/f%{fedora}/default/normalish/f%{fedora}.png fill|" %{buildroot}%{_sysconfdir}/sway/config
 
@@ -76,8 +76,6 @@ sed -i "s|^output \* bg .*|output * bg /usr/share/backgrounds/f%{fedora}/default
 %caps(cap_sys_ptrace,cap_sys_tty_config=eip) %{_bindir}/sway
 %{_bindir}/swaybar
 %{_bindir}/swaybg
-%{_bindir}/swayidle
-%{_bindir}/swaylock
 %{_bindir}/swaymsg
 %{_bindir}/swaynag
 %{_datadir}/wayland-sessions/sway.desktop
