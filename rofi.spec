@@ -79,11 +79,11 @@ The %{name}-themes package contains themes for %{name}.
 
 %prep
 %autosetup -p1
-
+mkdir %{_target_platform}
 
 %build
-%configure
-make %{?_smp_mflags}
+%meson
+%meson_build
 
 make doxy
 find doc/html/html -name "*.map" -delete
@@ -91,7 +91,7 @@ find doc/html/html -name "*.md5" -delete
 
 
 %install
-%make_install
+%meson_install
 
 
 %check
