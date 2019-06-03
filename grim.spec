@@ -1,5 +1,5 @@
 Name: grim
-Version:	1.1
+Version:	1.2
 Release:	0%{?dist}
 Summary:	Grab images from a Wayland compositor.
 
