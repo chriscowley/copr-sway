@@ -1,5 +1,5 @@
 Name:           sway
-Version:        1.0
+Version:        1.1
 Release:        1%{?dist}
 Summary:        i3-compatible window manager for Wayland
 Group:          User Interface/X
