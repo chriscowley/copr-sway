@@ -135,7 +135,7 @@ done
 
 
 %changelog
-* Fri Jun 21 2018 Chris Cowley <chris@cowley.tech> - 0.6.0-1
+* Fri Jun 21 2019 Chris Cowley <chris@cowley.tech> - 0.6.0-1
 - Update to upstream
 
 * Tue Dec 04 2018 Jerzy Drozdz <rpmbuilder@jdsieci.pl> - 0.2-1
