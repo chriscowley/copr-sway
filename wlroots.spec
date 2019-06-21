@@ -1,4 +1,4 @@
-%global commit  0.5.0
+%global commit  0.6.0
 %global gitdate %{nil}
 %global gitrel  %{nil}
 %global gitver  %{nil}
@@ -12,7 +12,7 @@
 
 
 Name:           wlroots
-Version:        0.5.0
+Version:        0.6.0
 Release:        1%{?gitrel}%{?dist}
 Summary:        A modular Wayland compositor library
 
@@ -135,6 +135,9 @@ done
 
 
 %changelog
+* Fri Jun 21 2018 Chris Cowley <chris@cowley.tech> - 0.6.0-1
+- Update to upstream
+
 * Tue Dec 04 2018 Jerzy Drozdz <rpmbuilder@jdsieci.pl> - 0.2-1
 - Update to upstream
 
