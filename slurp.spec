@@ -1,5 +1,5 @@
 Name: 		slurp
-Version:	1.1.0
+Version:	1.2.0
 Release:	0%{?dist}
 Summary:	Select a region in a Wayland compositor and print it to the standard output. 
 
@@ -37,4 +37,6 @@ BuildRequires:	scdoc
 %{_mandir}/man1/slurp.1.gz
 
 %changelog
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.2.0-0
+- Build 1.2.0
 
