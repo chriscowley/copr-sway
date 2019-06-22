@@ -1,6 +1,6 @@
 Name: 		swaybg
 Version:	1.0
-Release:	0%{?dist}
+Release:	1%{?dist}
 Summary:	Wallpaper tool for Wayland compositors
 
 License:	MIT
@@ -14,6 +14,8 @@ BuildRequires:	wayland-protocols-devel >= 1.14
 BuildRequires:	scdoc
 BuildRequires:	systemd-devel
 BuildRequires:	cmake
+BuildRequires:  cairo-devel
+BuildRequires:  gdk-pixbuf2-devel
 
 %description
 %{summary}
@@ -35,10 +37,10 @@ BuildRequires:	cmake
 %doc
 %license LICENSE
 %{_bindir}/swaybg
-%{_mandir}/man1/swaygb.1.gz
-/usr/share/bash-completion/completions/swaybg
-/usr/share/fish/completions/swaybg.fish
-/usr/share/zsh/site-functions/_swaybg
+%{_mandir}/man1/swaybg.1.gz
 
 %changelog
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.0.1
+- initial packaging
+- Initial packaging
 
