@@ -5,7 +5,7 @@
 
 
 Name:		mako
-Version:	1.1
+Version:	1.3
 Release:	0%{?dist}
 Summary:	A lightweight notification daemon for Wayland.
 
@@ -21,6 +21,7 @@ BuildRequires:	wayland-protocols-devel >= 1.14
 BuildRequires:	cairo-devel
 BuildRequires:	pango-devel
 BuildRequires:	scdoc
+BuildRequires:  gdk-pixbuf2-devel
 
 %description
 %{summary}
@@ -46,6 +47,9 @@ BuildRequires:	scdoc
 
 
 %changelog
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.3-0
+- Update to 1.3
+
 * Thu Nov 22 2018 Jerzy Drozdz <rpmbuilder@jdsieci.pl> - 1.1-1.1
 - Added missing build requisite
 
