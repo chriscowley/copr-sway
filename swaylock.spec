@@ -1,5 +1,5 @@
 Name: 		swaylock
-Version:	1.3
+Version:	1.4
 Release:	0%{?dist}
 Summary:	Screen locker for Wayland
 
@@ -45,4 +45,5 @@ BuildRequires:	git
 /usr/share/zsh/site-functions/_swaylock
 
 %changelog
-
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.4-0
+- Build 1.4
