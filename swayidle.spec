@@ -1,5 +1,5 @@
 Name: 		swayidle
-Version:	1.2
+Version:	1.3
 Release:	0%{?dist}
 Summary:	Idle management daemon for Wayland
 
@@ -41,4 +41,6 @@ BuildRequires:	cmake
 /usr/share/zsh/site-functions/_swayidle
 
 %changelog
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.4-0
+- Build 1.3
 
