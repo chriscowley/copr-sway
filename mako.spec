@@ -11,7 +11,7 @@ Summary:	A lightweight notification daemon for Wayland.
 
 License:	MIT
 URL:		https://github.com/emersion/mako
-Source0:	%{url}/archive/%{commit}.tar.gz#/%{name}-%{version}%{?gitver}.tar.gz
+Source0:        %{url}/archive/v%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	meson
