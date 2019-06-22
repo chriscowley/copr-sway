@@ -1,5 +1,5 @@
 Name: grim
-Version:	1.2
+Version:	1.2.0
 Release:	0%{?dist}
 Summary:	Grab images from a Wayland compositor.
 
@@ -39,5 +39,5 @@ BuildRequires:	libjpeg-turbo-devel
 %{_mandir}/man1/grim.1.gz
 
 %changelog
-* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.2-0
-- Build 1.2
+* Sat Jun 22 2019 Chris Cowley <chris@cowley.tech> - 1.2.0-0
+- Build 1.2.0
